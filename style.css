@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+#login-form {
+	margin:5% auto;
+	max-width:500px;
+}
+/* home page */
+#wrapper{
+	padding-top:50px;
+}
+
+.jumbotron {
+    position: relative;
+    background:  url("images/hot.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    padding: 150px;
+}
+
+hr {
+    height: 2px;
+    background-color:#555;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+
+#social-fb:hover {
+    color: #3B5998;
+}
+#social-tw:hover {
+    color: #4099FF;
+}
+#social-gp:hover {
+    color: #d34836;
+}
+#social-em:hover {
+    color: #f39c12;
+}
+
+table td {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+}
+
+.inside-banner{background:url(bginside.jpg) #222;color: #fff; padding: 30px 0;}
+.inside-banner h2{margin: 0; color: #fff;}
+.inside-banner span{margin-top: 10px;}
+
+.hot-properties {margin-bottom: 50px;}
+.hot-properties img{width: 68px; height: 68px;}
+.hot-properties h4{margin-bottom: 20px;}
+.hot-properties .row{margin-bottom: 20px;}
+.hot-properties .row p{margin-bottom: 5px;}
+
+.property-info{margin:0 0 30px 0;}
+.property-info span{margin-right: 5px;}
+.property-info p{margin-bottom:10px; }
+.property-info p.price{font-size: 28px;color: #72b70f;padding:0;border-radius: 5px;}
+.property-info .profile{margin-top: 30px;}
+.property-info .profile p{padding-left: 20px; color: #999;}
+
+.properties-listing .viewall{margin-top: 15px;}
+.properties-listing div.properties{padding: 10px; background-color: #fff;text-align: center; margin-bottom: 20px; position: relative;}
+.owl-wrapper-outer div.properties{margin: 0 5px;}
+.properties-listing div.properties .image-holder{position: relative; max-width: 350px; height: 350px;}
+.properties-listing div.properties .status{position: absolute;bottom: 0;z-index: 100;display: block;width: 100%;color: #fff;padding:0 3px;text-align: right; font-size: 12px;}
+.properties-listing div.properties p{margin-bottom: 10px; font-size: 14px;border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;padding: 5px 0;font-family: din;}
+
+.status.sold{background:rgba(104,167,13,0.8);}
+.status.new{background:rgba(190,7,46,0.8);}
+
+.banner-search{background:url(bginside.jpg) #111;color: #fff;padding: 20px 0 10px 0; font-size: 16px;}
+.banner-search h3{color: #fff;}
+
+.searchbar button{margin-bottom: 10px; margin-top: 25px;}
+
+.form-control {margin: 10px;}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+body {	color:#555;	font:normal 13px/22px Arial;	background:url(bgmain.png) #eee;}
